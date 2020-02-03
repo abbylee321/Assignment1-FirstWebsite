@@ -1,3 +1,12 @@
+
+h1 {
+    color: #000000;
+    font-size: 40px;
+    line-height:1.6em;
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 750px;
+}
 body {
   background-color:#FF8E80;
   color: #000000;
@@ -15,68 +24,87 @@ body {
 .box-1{
     background-color: #DAE3F1;
     color: #000000;
-    /* border-right: 5px #91bbff; */
-    /* border-left: 5px #91bbff; */
-    /* border-top: 5px #91bbff; */
-    /* border-bottom: 5px #91bbff; */
-
     border:5px solid #4285f4;
     border-width: 5px;
     border-bottom-width: 10px;
-    /* border-top-style: solid;  */
     padding: 18px;
     margin: 20px;
 }
 
-.box-1 h1{
+.box-1 h2{
     font-family: Tahoma;
     font-weight: 800;
     font-style: italic;
-    /* text-decoration: underline; */
     text-transform: uppercase;
-    /* letter-spacing: 0.2em; */
-    /* word-spacing: 1em; */
 }
 
-.box-2 h1{
+.box-2 h2{
     background-color: #DAE3F1;
     color: #000000;
     border:5px solid #4285f4;
     border-width: 10px;
     border-bottom-width: 10px;
-    /* border-top-style: solid;  */
     padding: 50px;
     margin: 20px;
 }
 
 .square {
-    width: 100px;
-    height: 200px;
-    background: black;
+    width: 175px;
+    height: 75px;
+    background: white;
     position: relative;
-    margin-left: 500px;
-    top: 40px;
-    left: -35px;
+    margin-left: 750px;
+    top: 130px;
+    left: 133px;
 }
 
+.leg{
+    width: 75px;
+    height: 175px;
+    background: white;
+    position: absolute;
+    top: -138px;
+}
+
+
 .circle1 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: navy;
     border-radius: 50%;
     position: absolute;
-    margin-left: 300px;
-    left: 50px;
-    top: 50px;
+    left: 131px;
+    top: 39px;
 }
 
 .circle2 {
     width: 100px;
     height: 100px;
-    background: #FFFFFF;
+    background: navy;
     border-radius: 50%;
     position: absolute;
     margin-left: -50px;
-    left: 50px;
-    top: 50px;
+    left: 8px;
+    top: 42px;
+}
+
+.overlap {
+    width: 39px;
+    height: 39px;
+    background: #0000FF;
+    position: absolute;
+    left: 138px;
+    top: 47px;
+    border-top-left-radius: 198px;
+    
+}
+
+.overlap2 {
+    width: 47px;
+    height: 37px;
+    background: #0000FF;
+    position: absolute;
+    left: 0px;
+    top: 49px;
+    border-top-right-radius: 198px;
 }
